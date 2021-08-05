@@ -1,3 +1,5 @@
 function isEmpty(obj) {
-  // ваш код...
+  for (let emp in obj){
+    return false;
+  }
 }
