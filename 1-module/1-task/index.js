@@ -1,8 +1,8 @@
 function factorial(n) {
-  for (var i = num - 1; i > 0; i--){
-    num *= i;
+  for (var i = n - 1; i > 0; i--){
+    n *= i;
   }
-  return num;
+  return n;
 }
 alert(factorial(5));
 
